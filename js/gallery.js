@@ -10,7 +10,7 @@ var resizeAll = function () {
     });
 };
 gallery.querySelectorAll('img').forEach(function (item) {
-    item.classList.add('byebye');
+    
     if (item.complete) {
         console.log(item.src);
     }
